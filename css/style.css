@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: sans-serif; }
+
+.wrapper {
+  padding: 10px;
+  min-width: 800px; }
+
+.header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #000;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px; }
+  .header__logo {
+    border-radius: 50%;
+    height: 80px;
+    text-decoration: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .header__logo h1 {
+      display: inline-block;
+      color: #000;
+      padding-left: 15px; }
+    .header__logo img {
+      height: auto;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%; }
+  .header__menu {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+
+.menu__list {
+  padding: 0;
+  margin: 0;
+  display: inline-block; }
+
+.options {
+  background: url("https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_settings-20.png") no-repeat center;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 10px; }
+  .options:hover {
+    cursor: pointer; }
+
+.list__item {
+  display: inline-block;
+  margin-right: 5px; }
+
+.container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #000;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px; }
+
+.sidebar {
+  width: 180px; }
+  .sidebar__list {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .sidebar__item {
+    padding: 3px; }
+
+.btn a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #FFCBCB;
+  padding: 7px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-shadow: #000 1px 1px 1px;
+  transition: all .2s; }
+  .btn a:hover {
+    background-color: #ffbcbc; }
+
+.content {
+  width: 100%; }
+
+.row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .row:not(:last-child) {
+    margin-bottom: 15px; }
+  .row__item {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #FFCBCB;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: #fff 1px 1px 1px;
+    transition: all .3s; }
+    .row__item:first-child:after {
+      color: #fff;
+      content: 'FREE';
+      position: absolute;
+      text-transform: uppercase;
+      width: 200px;
+      height: 24px;
+      line-height: 24px;
+      top: 10px;
+      right: -80px;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      background: red;
+      text-align: center; }
+    .row__item:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.16); }
+
+.footer {
+  border: 1px solid #000;
+  padding: 15px;
+  border-radius: 5px; }
+  .footer__container-lg {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  .footer__item:not(:last-child) {
+    margin-bottom: 5px; }
+  .footer__container-sm {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .footer__list {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .footer__block_left a:not(:last-child) {
+    margin-right: 20px; }
+
+.links a {
+  text-decoration: none;
+  color: #000; }
+
+.in {
+  display: inline-block;
+  background: url("https://cdn0.iconfinder.com/data/icons/social-media-2098/512/instagram-24.png") no-repeat center;
+  width: 24px;
+  height: 24px; }
+
+.tw {
+  display: inline-block;
+  background: url("https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-24.png") no-repeat center;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px; }
+
+.fb {
+  display: inline-block;
+  background: url("https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-24.png") no-repeat center;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px; }
+
+.line {
+  width: 95%;
+  margin: 15px auto 15px; }
